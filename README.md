@@ -1,7 +1,11 @@
-# Bloom downloads
+# Bloom downloads — Phase 3
 
-Download **Bloom.html** and open it in a desktop browser to play the fully self-contained game.
+Download **Bloom-website.zip** for the updated Netlify website. Extract the ZIP, then upload the folder containing `index.html` and `assets` through your existing Netlify project's Deploys page.
 
-For website hosting, download and extract **Bloom-website.zip** and upload its contents to a static host. The ZIP includes index.html at its root and the required assets and third-party notices.
+This build includes real-stat results sharing and PNG export, six earned garden decorations, install icons, offline guest play, safe app updates, and configurable consent-based analytics. Existing guest progress and daily challenges are preserved on the same website/browser. Analytics is off until configured with the owner's real measurement ID and visitor consent.
 
-This branch contains the finished game downloads. The game is free to play and has no connected payments. Progress is saved in the current browser.
+A static website upload supports guest play and local records. Optional accounts, cloud saves, and shared rankings need the separate persistent Node account backend; they are not activated by this ZIP alone.
+
+**Bloom.html** is the current fully embedded game for local desktop play. Download the file rather than opening its source view.
+
+This branch distributes downloads only. Publishing these files does not deploy the Netlify website. See the included website privacy page and third-party notices. No payments, tracking credentials, private player databases, or local caches are included.
